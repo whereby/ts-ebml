@@ -1,5 +1,5 @@
 {
-  "name": "@whereby/whereby-ebml",
+  "name": "@whereby/ts-ebml",
   "version": "2.0.3",
   "description": "ebml decoder and encoder",
   "scripts": {
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/legokichi/ts-ebml.git"
+    "url": "git+https://github.com/whereby/ts-ebml.git"
   },
   "keywords": [
     "ebml",
@@ -35,10 +35,7 @@
   ],
   "author": "legokichi duckscallion",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/legokichi/ts-ebml/issues"
-  },
-  "homepage": "https://github.com/legokichi/ts-ebml#readme",
+  "homepage": "https://github.com/whereby/ts-ebml#readme",
   "dependencies": {
     "buffer": "^5.0.7",
     "commander": "^2.11.0",
@@ -65,5 +62,8 @@
   },
   "bin": "./lib/cli.js",
   "main": "./lib/index.js",
-  "typings": "./lib/index.d.ts"
+  "typings": "./lib/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }

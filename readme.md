@@ -1,9 +1,7 @@
 
 # ts-ebml
-ebml encoder and decoder written in TypeScript.
-
-# Fork of node-ebml
-It is a fork of https://github.com/themasch/node-ebml
+This is a custom fork of no longer maintined [ts-ebml](https://github.com/legokichi/ts-ebml).
+The main reason for this fork is to handle a breaking change introduced in [matroska 2.2.4](https://github.com/oeuillot/node-matroska/commit/d192c449c7e3de2748a6c149b5c191f0d1b29c3f). 
 
 # install
 
